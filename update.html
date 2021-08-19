@@ -21,24 +21,26 @@
         <form>
           <div class="form-item form-item-name">
             <label for="name" class="label-name">Name</label>
-            <input type="text" class="form-input form-input-name" placeholder="Enter the name" />
+            <input type="text" id="form-title" class="form-input form-input-name" placeholder="Enter the name" />
           </div>
 
           <div class="form-item form-item-details">
             <label for="details" class="label-details">Details</label>
-            <textarea class="form-input form-input-details" placeholder="Enter the details"></textarea>
+            <textarea class="form-input form-input-details" id="form-detail" placeholder="Enter the details"></textarea>
           </div>
         </form>
 
 
         <div class="button-group">
-          <button class="save-button common-button">Save</button>
-          <button class="delete-button common-button">Delete</button>
+          <button class="save-button common-button" onclick="saveButtonClick()">Save</button>
+          <button class="delete-button common-button" onclick="deleteButtonClick()">Delete</button>
         </div>
 
       </div>
     </main>
   </div>
+
+  <script src="script/update.js"></script>
 </body>
 
 </html>
