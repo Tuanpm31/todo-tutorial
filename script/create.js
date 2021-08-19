@@ -42,6 +42,5 @@ formDetailDom.addEventListener('change', function (event) {
 
 function handleCreateTodoSuccess() {
   alert("Create new todo success")
-  formTitleDom.value = ''
-  formDetailDom.value = ''
+  window.location.href = "/index.html"
 }
