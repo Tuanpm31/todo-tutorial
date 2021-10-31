@@ -22,20 +22,21 @@
         <form>
           <div class="form-item form-item-name">
             <label for="name" class="label-name">Name</label>
-            <input type="text" class="form-input form-input-name" placeholder="Enter the name">
+            <input type="text" class="form-input form-input-name" placeholder="Enter the name" id="form-title">
           </div>
 
           <div class="form-item form-item-details">
             <label for="details" class="label-details">Details</label>
-            <textarea class="form-input form-input-details" placeholder="Enter the details"></textarea>
+            <textarea class="form-input form-input-details" placeholder="Enter the details" id="form-detail"></textarea>
           </div>
         </form>
 
-        <button class="save-button common-button">Save</button>
+        <button class="save-button common-button" onclick="handleButtonSaveClick()">Save</button>
       </div>
     </main>
 
   </div>
+  <script src="script/create.js"></script>
 </body>
 
 </html>
